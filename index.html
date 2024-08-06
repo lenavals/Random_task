@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Task Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="language-select">Select a language:</label>
+        <select id="language-select">
+            <option value="">--Select--</option>
+            <option value="chinese">Chinese</option>
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="arabic">Arabic</option>
+            <option value="polish">Polish</option>
+        </select>
+        <button id="get-task">Get Task</button>
+        <button id="discard-task" style="display: none;">Discard Task</button>
+        <div id="task"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
